@@ -1,0 +1,125 @@
+/*------------------------------------*\
+    OOCSS
+\*------------------------------------*/
+.navbar{
+	width: 100%;
+	height: 64px;
+
+}
+.navbar-dark{
+	background-color: #000;
+
+}
+.mb-8{margin-bottom: 8px;}
+.mb-16{margin-bottom: 16px;}
+.mb-24{margin-bottom: 24px;}
+.mb-32{margin-bottom: 32px;}
+.navbar ul li a{
+
+}
+.menu__link{
+
+}
+
+/*------------------------------------*\
+    SMACSS
+\*------------------------------------*/
+/* base */
+a{}
+ul{}
+h1,h2,h3,h4,h5,h6{}
+
+/* layout */
+.container{}
+.row{}
+.col{}
+
+/* module */
+.navbar{
+
+}
+@media (max-width: 768px){
+
+}
+.list{}
+.jumbotron{}
+.card{}
+
+/* state */
+.active{}
+.is-active{}
+.is-hidden{}
+
+/* theme */
+.theme-white{}
+.theme-dark{}
+.theme-v1{}
+.theme-v2{}
+
+/* Depth of Applicability */
+.card h3{
+
+}
+.heading-3{
+
+}
+
+/*------------------------------------*\
+    BEM
+\*------------------------------------*/
+/* block */
+.navbar{}
+/* element */
+.navber__logo{}
+/* modifier */
+.btn{}
+.btn--primary{}
+.btn--lg{}
+/* nav */
+.nav{
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+}
+.nav__item{
+	float: left;
+	line-height: 64px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.nav__link{
+	color: #fff;
+}
+/* navbar */
+.navbar{
+	background-color: #fff;
+	width: 100%;
+	height: 64px;
+	border: 1px solid;
+}
+.navbar:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.navbar__logo{
+	float: left;
+	width: 120px;
+	height: 64px;
+	background-color: grey;
+}
+.navbar__nav{
+	float: right;
+}
+.navbar__nav .nav__link{
+	color: red;
+}
+
+/* name rule for bem */
+.namespace-block-name__element-name--modifier{
+
+}
